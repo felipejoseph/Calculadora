@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <title>Calculadora</title>
+    
+</head>
+
+<body>
+    <div id="corpo">
+    <center> <div id = "p1">Digite o primeiro numero: <input id ="n1" type="number" ></div>
+        <div id = "p2">Digite o Segundo numero: <input id = "n2"type="number" id ="n2"></div>
+        <br><br></center>
+       <div id="botoes">
+           <center>
+           <button onclick="somar()">Somar</button>
+           <button id="subtra" onclick="sub()">Subtrair</button>
+           <button id="divi" onclick="divi()">Divisão</button>
+           <button id="resto" onclick="resto()">Resto</button>
+           <button id ="porcentagem" onclick = "porcentagem()">Porcentagem</button>
+           <button id="mutiplicar" onclick="muti()">Multiplicar</button></center><br>
+    
+    <center>Resultado:
+    <div id="resultado"></div>
+    Historico:
+    <div id ="historico"></div>
+       </div>
+    </div>
+       
+</body>
+
+</html>

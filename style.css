@@ -1,0 +1,69 @@
+body{
+    margin: 5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+   }
+
+#corpo{
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 1px rgb(117, 113, 113);
+    margin:30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FACE42;
+    height: 430px;
+    width: 300px;
+
+   }
+
+#number1{
+    
+    margin: 20px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 170px;
+
+
+}
+#number2{
+    
+    margin: 20px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 170px;
+
+
+}
+
+#botoes{
+
+justify-content: center;
+align-items: center;
+margin-left:30px;
+
+}
+
+#resultado{
+    margin-right: 20px;
+    
+    background-color:#3E88AD;
+    height: 120px;
+    width: 240px;
+    font-size: 30px;
+
+}
+#historico{
+    margin-right: 20px;
+    background-color:#3E88AD;
+    height: 80px;
+    width: 240px;
+    font-size: 20px;
+    overflow: auto;
+}
